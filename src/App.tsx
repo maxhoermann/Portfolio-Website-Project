@@ -1,6 +1,10 @@
 import Navbar from './compontents/Navbar'
 import Hero from './compontents/Hero'
 import About from './compontents/About'
+import Technologies from './compontents/Technologies'
+import Education from './compontents/Education'
+import Work_Experience from './compontents/WorkExperience'
+import Contact from './compontents/Contact'
 function App() {
 
   return (
@@ -17,6 +21,10 @@ function App() {
         <Navbar></Navbar>
         <Hero />
         <About />
+        <Technologies />
+        <Education />
+        <Work_Experience />
+        <Contact />
       </div>
     </div>
     
