@@ -8,10 +8,10 @@ function Navbar(){
                 <img className="mx-2 w-10" src={logo} alt="logo" />
             </div>
             <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <a>
+            <a href="https://de.linkedin.com/" target="_blank">
                 <img src={linkedInLogo} alt="logo" width="32" height="32" className="bg-white rounded-md" />
             </a>
-            <a>
+            <a href="https://github.com/maxhoermann" target="_blank">
                 <img src={githubLogo} alt="logo" width="32" height="32" />
             </a>
             

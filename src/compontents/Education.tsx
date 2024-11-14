@@ -25,12 +25,22 @@ function Education(){
                             transition={{duration: 1}}                            
                             className="w-full max-w-xl lg:w-3/4">
                                 <h6 className="mb-2 font-semibold">
-                                    {education.subject}, <span className="text-sm text-purple-100">{education.degree}</span>
+                                {education.degree !== "Abitur" ? (
+                                <>{education.subject}, </>
+                                ) : null} <span 
+                                    className="text-sm text-purple-100">{education.degree}</span>
                                 </h6>
-                                <p className="mb-4 text-neutral-400">{education.university}</p>
+                                <p className="mb-4 text-neutral-400">{education.university}<br/>
+                                <a className="mb-4 text-neutral-400" 
+                                   href="https://www.deutschlandstipendium.de/deutschlandstipendium/de/services/english/the-deutschlandstipendium-best-of-both-worlds-for-students.html"
+                                   target="_blank">{education.additionalInformation}</a> 
+
+                                </p>
+                                
                             </motion.div>
                         </div>
                     ))}
+
                 </div>
             </div>
         
