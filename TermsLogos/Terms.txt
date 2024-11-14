@@ -1,0 +1,13 @@
+Microsoft:
+https://learn.microsoft.com/en-us/powershell/scripting/community/digital-art?view=powershell-7.4
+
+Github
+https://github.com/logos
+
+Linked in
+https://brand.linkedin.com/policies
+
+
+Linux
+https://isc.tamu.edu/~lewing/linux/
+https://de.m.wikipedia.org/wiki/Datei:Linux_logo.jpg

@@ -1,4 +1,6 @@
 import logo from "../assets/react.svg"
+import linkedInLogo from "../assets/LinkedInLogo.png"
+import githubLogo from "../assets/github-mark-white.svg"
 function Navbar(){
     return(
         <nav className="mb-20 flex items-center justify-between py-6">
@@ -6,8 +8,13 @@ function Navbar(){
                 <img className="mx-2 w-10" src={logo} alt="logo" />
             </div>
             <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <img src={logo} alt="logo" />
-            <img src={logo} alt="logo" />
+            <a>
+                <img src={linkedInLogo} alt="logo" width="32" height="32" className="bg-white rounded-md" />
+            </a>
+            <a>
+                <img src={githubLogo} alt="logo" width="32" height="32" />
+            </a>
+            
             </div>
         </nav>
     );
