@@ -25,7 +25,10 @@ function Work_Experience(){
                             transition={{duration: 1}}  
                             className="w-full max-w-xl lg:w-3/4">
                                 <h6 className="mb-2 font-semibold">
-                                    {experience.role}, <span className="text-sm text-purple-100">{experience.company}</span>
+                                    {experience.role}, <span className="text-sm text-purple-100">
+                                    {experience.company === "LudoFactGmbH" && (<a href="https://ludofact.de/en/" target="_blank">"LudoFactGmbH"</a>)}
+                                    {experience.company === "440s.de - for fourties" && (<a href="https://440s.de/" target="_blank">440s.de - for fourties</a>)}
+                                    </span>
                                 </h6>
                                 <p className="mb-4 text-neutral-400">{experience.description}</p>
                                 {experience.topics.map((topics, index) => (

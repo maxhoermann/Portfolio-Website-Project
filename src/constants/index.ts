@@ -1,4 +1,4 @@
-export const HERO_CONTENT = `THIS IS MY HELLO TEXT`;
+export const HERO_CONTENT = `Welcome! I'm currently doing my master's degree in computer science at Ulm University. On this site, you'll find insights into my CV, skills, and the passion for cybersecurity.`;
 export const ABOUT_TEXT = `THIS IS MY ABOUT TEXT`;
 export const EDUCATION = [
    {
@@ -30,7 +30,7 @@ export const WORK_EXPERIENCE = [
          years: "2021-2024",
          role: "Working Student",
          company: "LudoFactGmbH",
-         description: "The description of the job",
+         description: "I support the IT department on cybersecurity topics. This includes, among other things, processing penetration test findings, creating guidelines, documentations and smaller scripts. I also give training courses on IT topics for the software solutions used in the company to the employees.",
          topics: ["IT-Security", "Powershell", "Microsoft Environment"]
  
     },
