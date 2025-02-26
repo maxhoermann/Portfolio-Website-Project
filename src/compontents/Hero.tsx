@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePicture from "../assets/Profilepicture_blank.png"
+import profilePicture from "../assets/PersonalPhoto.jpg"
 import { motion } from "framer-motion"
 
 function container(delay: number){
@@ -45,7 +45,8 @@ function Hero(){
                         initial={{x: 100, opacity: 0}}
                         animate={{x: 0, opacity: 1}}
                         transition={{duration: 1, delay: 1.2}}
-                        src={profilePicture} alt="Max Hörmann"/>
+                        src={profilePicture} alt="Max Hörmann"
+                        className="rounded-md w-1/2"/>
                     </div>
                 </div>
             </div>

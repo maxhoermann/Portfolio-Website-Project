@@ -1,4 +1,3 @@
-import icon from '../assets/react.svg'
 import {motion, Variants} from "framer-motion"
 
 
@@ -47,7 +46,7 @@ function Technologies(){
                     className="rounded-2xl border-4 border-neutral-800 p-4">
                         <p   
                         className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl 
-                        tracking-tight text-transparent">Kotlin</p>
+                        tracking-tight text-transparent">TypeScript</p>
                     </motion.div>
                     <motion.div 
                     variants={iconVariants(2) as Variants}
@@ -80,11 +79,18 @@ function Technologies(){
                      variants={iconVariants(2) as Variants}
                      initial="initial"
                      animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                     className="rounded-2xl border-4 border-neutral-800 p-4">
                         <p   
                         className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl 
                         tracking-tight text-transparent">Bash</p>
                     </motion.div>
+                </motion.div>
+                <motion.div 
+                whileInView={{opacity: 1, x: 0}}
+                initial={{opacity: 0, x: 100}}
+                transition={{duration: 1.5}}
+                className="flex flex-wrap items-center mt-8 justify-center gap-4">
+                <img src="https://tryhackme-badges.s3.amazonaws.com/maxhoer.png" alt="Your Image Badge" />
                 </motion.div>
             </div>
         </>

@@ -1,10 +1,10 @@
 import Navbar from './compontents/Navbar'
 import Hero from './compontents/Hero'
-import About from './compontents/About'
 import Technologies from './compontents/Technologies'
 import Education from './compontents/Education'
 import Work_Experience from './compontents/WorkExperience'
 import Contact from './compontents/Contact'
+import Publicitations from './compontents/Publicitations'
 function App() {
 
   return (
@@ -23,6 +23,7 @@ function App() {
         <Technologies />
         <Education />
         <Work_Experience />
+        <Publicitations/>
         <Contact />
       </div>
     </div>
