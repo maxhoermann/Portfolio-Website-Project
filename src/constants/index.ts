@@ -38,6 +38,14 @@ export const WORK_EXPERIENCE = [
  
     },
     {
+      years: "2025",
+      role: "Student Assistant - Security of IT-Systems",
+      company: "Ulm University",
+      description: "During the summer semester of 2025, I helped to correct and assess the weekly exercise sheets submitted by students for the Security of IT-Systems lecture.",
+      topics: ["IT-Security"]
+
+ },
+    {
          years: "2022-2023",
          role: "Mini-Job",
          company: "440s.de - for fourties",
