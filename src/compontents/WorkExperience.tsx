@@ -28,6 +28,7 @@ function Work_Experience(){
                                     {experience.role}, <span className="text-sm text-purple-100">
                                     {experience.company === "Ludo Fact GmbH" && (<a href="https://ludofact.de/en/" target="_blank">{experience.company}</a>)}
                                     {experience.company === "440s.de - for fourties" && (<a href="https://440s.de/" target="_blank">{experience.company}</a>)}
+                                    {experience.company === "Ulm University" && (<a href="https://www.uni-ulm.de/" target="_blank">{experience.company}</a>)}
                                     </span>
                                 </h6>
                                 <p className="mb-4 text-neutral-400">{experience.description}</p>
