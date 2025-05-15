@@ -63,7 +63,13 @@ export const WORK_EXPERIENCE = [
  export const PUBLICATIONS = [{
    title: "Challenges and Initial Measurements on Communication and Localization for Mountain Bike Safety Applications",
    year: 2025,
-   authors: " Michele Zucchelli, Marcus Marx, Max Leopold Hörmann, Frank Kargl, Michele Segata"
+   authors: "Michele Zucchelli, Marcus Marx, Max Leopold Hörmann, Frank Kargl, Michele Segata",
+   link: "https://ieeexplore.ieee.org/abstract/document/10926002"
+ },
+ { title: "Poster: MBHWS - a Mountainbike-to-Hiker Warning System",
+   year: 2025,
+   authors: "Max Leopold Hörmann, Marcus Marx, Michele Segata, Michele Zucchelli, Frank Kargl",
+   link: "https://iris.unitn.it/handle/11572/453513"
  }
    
  ]

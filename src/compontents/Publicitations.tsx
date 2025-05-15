@@ -26,7 +26,7 @@ function Publicitations(){
                             className="w-full max-w-xl lg:w-3/4">
                                 <h6 className="mb-2 font-semibold">
                                <span className="text-sm text-purple-100">
-                                    <a href="https://iris.unitn.it/handle/11572/442671" target="_blank">{publication.title} </a></span>
+                                    <a href={publication.link} target="_blank">{publication.title} </a></span>
                                 </h6>
                                 <p className="mb-4 text-neutral-400">{publication.authors}<br/>
                                 </p>

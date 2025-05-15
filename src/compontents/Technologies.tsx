@@ -82,7 +82,7 @@ function Technologies(){
                      className="rounded-2xl border-4 border-neutral-800 p-4">
                         <p   
                         className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl 
-                        tracking-tight text-transparent">Bash</p>
+                        tracking-tight text-transparent">Linux</p>
                     </motion.div>
                 </motion.div>
                 <motion.div 
@@ -90,7 +90,7 @@ function Technologies(){
                 initial={{opacity: 0, x: 100}}
                 transition={{duration: 1.5}}
                 className="flex flex-wrap items-center mt-8 justify-center gap-4">
-                <img src="https://tryhackme-badges.s3.amazonaws.com/maxhoer.png" alt="Your Image Badge" />
+                <img src="https://tryhackme-badges.s3.amazonaws.com/maxhoer.png" alt="maxhoer tryhackme batch" />
                 </motion.div>
             </div>
         </>
