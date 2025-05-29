@@ -1,4 +1,4 @@
-export const HERO_CONTENT = `Welcome! I'm currently doing my master's degree in computer science at Ulm University. On this site, you'll find insights into my CV, skills, and my passion for cybersecurity.`;
+export const HERO_CONTENT = `Welcome! I'm currently doing my master's degree in computer science at Ulm University. On this site, you'll find insights into my CV, skills, and my interest in cybersecurity.`;
 export const ABOUT_TEXT = `THIS IS MY ABOUT TEXT`;
 export const EDUCATION = [
    {
