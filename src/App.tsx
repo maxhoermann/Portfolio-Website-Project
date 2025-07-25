@@ -1,6 +1,6 @@
 import Navbar from './compontents/Navbar'
 import Hero from './compontents/Hero'
-import Technologies from './compontents/Technologies'
+{/*import Technologies from './compontents/Technologies'*/}
 import Education from './compontents/Education'
 import Work_Experience from './compontents/WorkExperience'
 import Contact from './compontents/Contact'
@@ -20,7 +20,7 @@ function App() {
       <div className="container mx-auto px-8">
         <Navbar></Navbar>
         <Hero />
-        <Technologies />
+       {/* <Technologies /> */}
         <Education />
         <Work_Experience />
         <Publicitations/>
