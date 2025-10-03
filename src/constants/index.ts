@@ -30,15 +30,22 @@ export const EDUCATION = [
 ];
 export const WORK_EXPERIENCE = [
     {
-         years: "2022-Present",
+         years: "Oct 2025 - Present",
+         role: "Working Student",
+         company: "SCHUTZWERK GmbH",
+         description: "Tool development is my major task.",
+         topics: ["IT-Security", "Software Development"]
+    },
+    {
+         years: "Nov 2022 - Oct 2025",
          role: "Working Student",
          company: "Ludo Fact GmbH",
-         description: "I support the IT department on cybersecurity topics. This includes, among other things, processing penetration test findings, administering the security awareness platform, creating guidelines, documentations and smaller scripts. Giving training courses on IT topics for the software solutions used in the company to the employees is also part of my work.",
+         description: "I supported the IT department on cybersecurity topics. This included, among other things, processing penetration test findings, administering the security awareness platform, creating guidelines, documentations and smaller scripts. Giving training courses on IT topics for the software solutions used in the company to the employees was also part of my work.",
          topics: ["IT-Security", "Microsoft Environment"]
  
     },
     {
-      years: "2025",
+      years: "Apr 2025 - Jul 2025",
       role: "Student Assistant - Security of IT-Systems",
       company: "Ulm University",
       description: "During the summer semester of 2025, I helped to correct and assess the weekly exercise sheets submitted by students for the Security of IT-Systems lecture.",
@@ -46,7 +53,7 @@ export const WORK_EXPERIENCE = [
 
     },
     {
-         years: "2022-2023",
+         years: "2022 - 2023",
          role: "Mini-Job",
          company: "440s.de - for fourties",
          description: "I prepared the company's accounts for the tax office.",
