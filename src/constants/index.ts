@@ -76,7 +76,7 @@ export const WORK_EXPERIENCE = [
  { title: "Poster: MBHWS - a Mountainbike-to-Hiker Warning System",
    year: 2025,
    authors: "Max Leopold Hörmann, Marcus Marx, Michele Segata, Michele Zucchelli, Frank Kargl",
-   link: "https://iris.unitn.it/handle/11572/453513"
+   link: "https://ieeexplore.ieee.org/abstract/document/11054120"
  }
    
  ]
