@@ -17,7 +17,7 @@ export const EDUCATION = [
         subject: "Computer Science",
         university: "Ulm University",
         grade: "1.1",
-        additionalInformation: "2023-2024 Deutschlandstipendium"
+        additionalInformation: "2023-2024 Deutschlandstipendium "
    },
    {
          years: "2009-2021",
