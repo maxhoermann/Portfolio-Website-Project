@@ -7,7 +7,7 @@ export const EDUCATION = [
       subject: "Computer Science",
       university: "Ulm University",
       grade : "",
-      additionalInformation: ""
+      additionalInformation: "2025-2026 Deutschlandstipendium "
 
 
    },
@@ -51,15 +51,7 @@ export const WORK_EXPERIENCE = [
       description: "During the summer semester of 2025, I helped to correct and assess the weekly exercise sheets submitted by students for the Security of IT-Systems lecture.",
       topics: ["IT-Security"]
 
-    },
-    {
-         years: "2022 - 2023",
-         role: "Mini-Job",
-         company: "440s.de - for fourties",
-         description: "I prepared the company's accounts for the tax office.",
-         topics: ["Clerk"]
     } 
- 
  ];
 
  export const CONTACT ={
@@ -67,16 +59,23 @@ export const WORK_EXPERIENCE = [
 
  };
 
- export const PUBLICATIONS = [{
-   title: "Challenges and Initial Measurements on Communication and Localization for Mountain Bike Safety Applications",
-   year: 2025,
-   authors: "Michele Zucchelli, Marcus Marx, Max Leopold Hörmann, Frank Kargl, Michele Segata",
-   link: "https://ieeexplore.ieee.org/abstract/document/10926002"
- },
- { title: "Poster: MBHWS - a Mountainbike-to-Hiker Warning System",
-   year: 2025,
-   authors: "Max Leopold Hörmann, Marcus Marx, Michele Segata, Michele Zucchelli, Frank Kargl",
-   link: "https://ieeexplore.ieee.org/abstract/document/11054120"
- }
-   
+ export const PUBLICATIONS = [
+     {
+          title: "A Mountain-Bike-to-Hiker Warning System (MBHWS)",
+          year: 2026,
+          authors: "Max Hörmann, Andreas Gerasimow, Marcus Marx, Michele Zucchelli, Michele Segata, Frank Kargl",
+          link: "https://www.uni-ulm.de/in/vs/"
+     },
+     {
+          title: "Challenges and Initial Measurements on Communication and Localization for Mountain Bike Safety Applications",
+          year: 2025,
+          authors: "Michele Zucchelli, Marcus Marx, Max Leopold Hörmann, Frank Kargl, Michele Segata",
+          link: "https://ieeexplore.ieee.org/abstract/document/10926002"
+     },
+     { 
+          title: "Poster: MBHWS - a Mountainbike-to-Hiker Warning System",
+          year: 2025,
+          authors: "Max Leopold Hörmann, Marcus Marx, Michele Segata, Michele Zucchelli, Frank Kargl",
+          link: "https://ieeexplore.ieee.org/abstract/document/11054120"
+     }   
  ]
