@@ -33,8 +33,8 @@ export const WORK_EXPERIENCE = [
          years: "Oct 2025 - Present",
          role: "Working Student",
          company: "SCHUTZWERK GmbH",
-         description: "Tool development is my major task.",
-         topics: ["IT-Security", "Software Development"]
+         description: "My work focused on the further development of a penetration testing tool as well as supporting phishing-related topics, including deepfakes and voice cloning. I am currently writing my master's thesis at the company, in which I investigate the use of AI for phishing attacks on instant messaging services from an attacker's perspective.",
+         topics: ["IT-Security","Phishing", "Software Development"]
     },
     {
          years: "Nov 2022 - Oct 2025",
@@ -55,7 +55,7 @@ export const WORK_EXPERIENCE = [
  ];
 
  export const CONTACT ={
-    email: "max.hoermann03@gmail.com"
+    email: "myEmail.com"
 
  };
 
@@ -64,7 +64,7 @@ export const WORK_EXPERIENCE = [
           title: "A Mountain-Bike-to-Hiker Warning System (MBHWS)",
           year: 2026,
           authors: "Max Hörmann, Andreas Gerasimow, Marcus Marx, Michele Zucchelli, Michele Segata, Frank Kargl",
-          link: "https://www.uni-ulm.de/in/vs/"
+          link: "https://opendl.ifip-tc6.org/db/conf/wons/wons2026/1571226742.pdf"
      },
      {
           title: "Challenges and Initial Measurements on Communication and Localization for Mountain Bike Safety Applications",

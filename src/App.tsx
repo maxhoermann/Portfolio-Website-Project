@@ -2,7 +2,6 @@ import Navbar from './compontents/Navbar'
 import Hero from './compontents/Hero'
 import Education from './compontents/Education'
 import Work_Experience from './compontents/WorkExperience'
-import Contact from './compontents/Contact'
 import Publicitations from './compontents/Publicitations'
 import { ThemeProvider } from './context/ThemeContext'
 
@@ -23,7 +22,6 @@ function App() {
           <Education />
           <Work_Experience />
           <Publicitations />
-          <Contact />
         </div>
       </div>
     </ThemeProvider>
