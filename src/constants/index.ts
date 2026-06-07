@@ -20,7 +20,7 @@ export const EDUCATION = [
         additionalInformation: "2023-2024 Deutschlandstipendium "
    },
    {
-         years: "2009-2021",
+         years: "2013-2021",
          degree: "Abitur",
          university: "Gymnasium Ochsenhausen",
          grade: "1.1",
